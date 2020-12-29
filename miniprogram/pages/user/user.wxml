@@ -1,0 +1,6 @@
+<view class="container">
+    <view class="userinfo">
+      <open-data class="userinfo-avatar" type="userAvatarUrl"/>
+      <open-data class="userinfo-nickname" type="userNickName"/>
+    </view>
+</view>

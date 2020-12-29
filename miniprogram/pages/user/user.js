@@ -1,0 +1,16 @@
+Page({
+  onLoad(){
+    wx.cloud.callFunction({
+      name:'sec',
+      data:{
+        text:'特3456书yuuo莞6543李zxcz蒜7782法fgnv级'
+      },
+      success(res){
+        console.log(res)
+      },
+      fail(e){
+        console.log(e)
+      }
+    })
+  }
+})
